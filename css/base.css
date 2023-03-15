@@ -478,7 +478,7 @@ body {
   display: grid;
   align-content: start;
   grid-template-columns: 20% max-content auto minmax(auto, 480px);
-  grid-template-rows: 50% auto;
+  grid-template-rows: 60% auto;
   column-gap: 51px;
   z-index: 2;
 }
@@ -663,6 +663,17 @@ body {
 
 .thanks__social-behance {
   background-image: url(../img/logo-behance.svg);
+}
+
+@media (max-width: 1023px) {
+
+  .subscribe__input {
+    margin-bottom: 5px;
+  }
+
+  .subscribe-button {
+    position: static;
+  }
 }
 
 
